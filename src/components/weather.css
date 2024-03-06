@@ -1,0 +1,63 @@
+.outer-box{
+    /* border: 1px solid red; */
+    border: none;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 600px;
+    height: 100vh;
+    margin: auto;
+    background-color: rgb(134,141,217);
+    font-family: cursive;
+}
+.outer-box > div select{
+    width: 60%;
+    padding: 8px 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: 800;
+    font-family: cursive;
+    margin: 15px 20%;
+
+}
+.outer-box .result div{
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+.outer-box .loading{
+    font-size: 50px;
+}
+.outer-box .result div h1{
+    font-size: 60px;
+    color: white;
+    margin-top: -8px;
+}
+.outer-box .result div p{
+    font-size: 40px;
+    color: white;
+    margin-top: -45px;
+    text-shadow: 2px 2px black;
+}
+.outer-box .result #wind {
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+}
+.outer-box .result #wind p{
+    font-size: 30px;
+    padding-top: 30px;
+}
+.outer-box .forecast{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    /* border:1px solid red; */
+}
+.outer-box .forecast div img{
+    width: 100px;   
+    margin-top: -60px;
+}
+.outer-box .forecast div h2,h3{
+    margin-top: -10px;
+}
